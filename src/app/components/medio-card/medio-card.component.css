@@ -1,0 +1,11 @@
+.medio-card{
+  margin: 5px;
+}
+.medio-card-text{
+  background-color: white;
+  width: 420px;
+  color: black;
+}
+.medio-card-text p,.medio-card-text h3{
+  background-color: transparent;
+}

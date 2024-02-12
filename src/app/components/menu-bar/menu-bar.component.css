@@ -1,0 +1,33 @@
+/* ADICIONAR AS LETRAS EM NEON */
+.menu-top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+}
+.branco{
+  color: white;
+}
+.menu-image{
+  display: flex;
+  align-items: center;
+}
+.menu-top .btn{
+  color: rgb(255, 0, 0);
+  font-size: 20px;
+}
+.menu-image img{
+  margin-right: 10px;
+}
+.menu-name{
+  text-align: center;
+  /* margin: 20px; */
+  padding: 30px;
+}
+.menu-name h1{
+  font-size: 40px;
+}
+header{
+  /* border: 1px solid white; */
+  color: rgb(255, 0, 0);
+}

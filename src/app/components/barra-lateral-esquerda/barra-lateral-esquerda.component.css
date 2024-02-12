@@ -1,0 +1,30 @@
+.barra-esquerda{
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid white; */
+  width: 350px;
+  height: 600px;
+  background-color: rgb(190, 0, 0);
+  margin-top: 40px;
+}
+.barra-esquerda a{
+  padding-left: 25px;
+}
+.barra-esquerda h2, .barra-esquerda a{
+  background-color: transparent;
+  text-decoration: none;
+  color: white;
+  text-align: start;
+  padding-top: 7px;
+  padding-bottom: 7px;
+
+}
+.barra-esquerda h2{
+  color:rgb(90, 0, 0);
+}
+
+.barra-esquerda a:hover{
+  background-color: white;
+  color:rgb(90, 0, 0);
+
+}

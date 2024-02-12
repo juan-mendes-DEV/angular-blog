@@ -1,0 +1,10 @@
+main{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding-top: 20px;
+}
+.main-s-m{
+  display: flex;
+  align-items: center;
+}
