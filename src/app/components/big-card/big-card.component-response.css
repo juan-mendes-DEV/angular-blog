@@ -1,0 +1,26 @@
+/* .caixa{
+ display: flex;
+  background-color: white;
+  flex-direction: row;
+  margin: 10px;
+  align-items: center;
+}
+.caixa a{
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.caixa-text{
+  background-color: white;
+  text-align: start;
+}
+.caixa-text p{
+  margin: 0;
+}
+.caixa-text a{
+  text-decoration: none;
+}
+.caixa-text *{
+  background-color: transparent;
+  color: black;
+} */
