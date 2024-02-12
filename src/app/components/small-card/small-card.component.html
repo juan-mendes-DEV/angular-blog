@@ -4,7 +4,8 @@
   </div>
   <div class="small-card-text pb-3">
     <p class="pb-2">{{CardDate}}</p>
-    <h5 class="pb-3">{{CardTitle}}</h5>
-    <p class="pb-3">{{CardDescription}}</p>
+    <a [routerLink]="['content',Id]">
+      <h5 class="pb-3">{{CardTitle}}</h5>
+      <p class="pb-3">{{CardDescription}}</p></a>
   </div>
 </div>

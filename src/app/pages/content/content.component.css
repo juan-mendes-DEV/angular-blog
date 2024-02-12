@@ -1,0 +1,23 @@
+.content{
+  max-width: 300px;
+  width: 100%;
+  margin: 0 auto;
+  color: white;
+}
+.content-description h1{
+  background-color: transparent;
+}
+  .content-description p{
+  text-align: start;
+  font-size: 20px;
+  line-height: 20px;
+  background-color: transparent;
+}
+.content-description{
+  background-color: white;
+  color: black;
+  padding: 10px;
+}
+.content .content-title h1{
+  background-color: transparent;
+}

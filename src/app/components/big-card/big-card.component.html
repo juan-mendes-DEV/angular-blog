@@ -2,10 +2,10 @@
    <div class="caixa-photo">
         <img src="{{PhotoCover}}" alt="exemplo de imagem">
    </div>
-   <a href="#">
+   <a [routerLink]="['content',Id]">
    <div class="caixa-text">
           <p>data 00/00/00</p>
-        <h1><b>{{CardTitle}}</b></h1>
+        <h1>{{CardTitle}}</h1>
         <p>{{CardDescription}}</p>
       </div>
     </a>

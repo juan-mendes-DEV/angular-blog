@@ -11,6 +11,7 @@ import { MedioCardComponent } from './components/medio-card/medio-card.component
 import { SmallCardComponent } from './components/small-card/small-card.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
+import { ContentComponent } from './pages/content/content.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { HomeComponent } from './pages/home/home.component';
     MedioCardComponent,
     SmallCardComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    ContentComponent
   ],
   imports: [
     BrowserModule,

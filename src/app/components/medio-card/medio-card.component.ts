@@ -15,6 +15,9 @@ export class MedioCardComponent implements OnInit {
   @Input()
   CardDate:string=""
 
+  @Input()
+  Id:string="0"
+
   constructor() { }
 
   ngOnInit(): void {
