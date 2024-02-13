@@ -13,6 +13,9 @@ export class BigCardComponent implements OnInit {
   CardTitle:string = ""
 
   @Input()
+  CardDate:string = ""
+
+  @Input()
   CardDescription:string = ""
 
   @Input()

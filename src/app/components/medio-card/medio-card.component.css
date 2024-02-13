@@ -1,6 +1,10 @@
 .medio-card{
   margin: 5px;
 }
+.medio-card-photo img{
+  width: 420px;
+  height: 300px;
+}
 .medio-card-text{
   background-color: white;
   width: 420px;
@@ -9,6 +13,10 @@
   text-decoration: none;
   color: black;
 }
-.medio-card-text p,.medio-card-text h3{
+.medio-card-text h3{
+  background-color: transparent;
+  color: #1D242E;
+}
+.medio-card-text p{
   background-color: transparent;
 }

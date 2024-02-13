@@ -27,6 +27,11 @@
 .menu-name h1{
   font-size: 40px;
 }
+.menu-image img{
+  width: 70px;
+  border-radius: 50%;
+  border: 3px solid #374555;
+}
 header{
   /* border: 1px solid white; */
   color: rgb(255, 0, 0);

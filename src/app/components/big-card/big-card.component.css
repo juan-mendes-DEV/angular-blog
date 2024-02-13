@@ -5,6 +5,10 @@
   margin: 10px;
   align-items: center;
 }
+.caixa-photo img{
+  width: 400px;
+  height: 400px;
+}
 .caixa a{
   text-decoration: none;
   margin-left: 15px;
@@ -20,7 +24,11 @@
 .caixa-text a{
   text-decoration: none;
 }
-.caixa-text *{
+.caixa-text p{
   background-color: transparent;
   color: black;
+}
+.caixa-text h3{
+  background-color: transparent;
+  color: #1D242E;
 }

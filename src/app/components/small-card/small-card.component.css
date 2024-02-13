@@ -2,13 +2,25 @@
   width: 200px;
   margin: 5px;
 }
+.small-card-photo img{
+  width: 200px;
+  height: 202px;
+}
 .small-card-text{
   background-color: white;
   text-align: start;
   padding: 6px;
   height: 230px;
 }
-.small-card-text p,.small-card-text h5{
+.small-card-text a{
+  text-decoration: none;
+}
+.small-card-text h5{
+  background-color: transparent;
+  color: #1D242E;
+}
+.small-card-text p{
   background-color: transparent;
   color:black;
+
 }
