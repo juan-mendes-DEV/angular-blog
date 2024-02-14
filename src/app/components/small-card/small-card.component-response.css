@@ -1,3 +1,39 @@
+@media screen and (max-width: 300px) {
+  /* Adicione seus estilos aqui */
+}
+
+/* Estilos para larguras de tela entre 300px e 700px */
+@media screen and (min-width: 300px) and (max-width: 700px) {
+  .small-card{
+    width: 20em;
+    margin: 5px;
+    margin-top: 20px;
+  }
+  .small-card-text{
+    background-color: white;
+    text-align: center;
+    width: 20em;
+    padding: 6px;
+    height: 230px;
+  }
+  .small-card-photo img{
+    width: 20em;
+  }
+  .small-card-text p,.small-card-text h5{
+    background-color: transparent;
+    color:black;
+  }
+}
+
+
+/* Estilos para larguras de tela maiores que 700px */
+@media screen and (min-width: 700px){
+
+}
+/*
+}
+ */
+
 /* .small-card{
   width: 200px;
   margin: 5px;

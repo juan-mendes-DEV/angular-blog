@@ -1,3 +1,60 @@
+@media screen and (max-width: 300px) {
+  /* Adicione seus estilos aqui */
+}
+
+/* Estilos para larguras de tela entre 300px e 700px */
+@media screen and (min-width: 300px) and (max-width: 700px) {
+  .caixa{
+    display: flex;
+     background-color: white;
+     flex-wrap: wrap;
+     margin: 10px;
+     margin-top: 20px;
+     align-items: center;
+     width: 20em;
+     height: 45em;
+   }
+   .caixa-photo img{
+     width: 20em;
+     height: 25em;
+
+   }
+   .caixa a{
+     text-decoration: none;
+     margin-left: 15px;
+   }
+
+   .caixa-text{
+     background-color: white;
+     text-align: center;
+     height: 20em;
+   }
+
+   .caixa-text a{
+     text-decoration: none;
+   }
+   .caixa-text p{
+     background-color: transparent;
+     color: black;
+   }
+   .caixa-text h3{
+     background-color: transparent;
+     color: #1D242E;
+   }
+
+}
+
+/* Estilos para larguras de tela maiores que 700px */
+@media screen and (min-width: 700px){
+
+}
+/*
+}
+.main-s-m{
+  display: flex;
+  align-items: center;
+} */
+
 /* .caixa{
  display: flex;
   background-color: white;

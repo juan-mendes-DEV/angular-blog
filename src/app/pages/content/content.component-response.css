@@ -1,0 +1,31 @@
+@media screen and (min-width: 300px) and (max-width: 700px) {
+
+  .content{
+    max-width: 20em;
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+  }
+  .content img{
+    max-width: 20em;
+    height: 20em;
+  }
+  .content-description h1{
+    background-color: transparent;
+    color: #1D242E;
+  }
+    .content-description p{
+    text-align: start;
+    font-size: 15px;
+    /* line-height: 20px; */
+    background-color: transparent;
+  }
+  .content-description{
+    background-color: white;
+    color: black;
+    padding: 10px;
+  }
+  .content .content-title h1{
+    background-color: transparent;
+  }
+}

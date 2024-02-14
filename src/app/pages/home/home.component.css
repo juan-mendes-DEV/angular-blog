@@ -4,7 +4,15 @@ main{
   color: white;
   padding-top: 20px;
 }
+.main-principal{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
 .main-s-m{
   display: flex;
   align-items: center;
+  justify-content: center;
+
 }

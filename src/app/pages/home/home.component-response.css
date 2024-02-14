@@ -1,10 +1,16 @@
-/* main{
-  display: flex;
-  justify-content: space-between;
-  color: white;
-  padding-top: 20px;
+
+/* Estilos para larguras de tela entre 300px e 700px */
+@media screen and (min-width: 300px) and (max-width: 700px) {
+  main{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 20px;
+    margin: 0 auto;
+  }
+  .main-s-m{
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
 }
-.main-s-m{
-  display: flex;
-  align-items: center;
-} */

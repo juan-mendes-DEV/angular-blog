@@ -1,3 +1,21 @@
+/* Estilos para larguras de tela entre 300px e 700px */
+@media screen and (min-width: 300px) and (max-width: 700px) {
+  .medio-card{
+    margin: 5px;
+    width: 20em;
+  }
+  .medio-card-photo img{
+    width: 20em;
+  }
+  .medio-card-text{
+    background-color: white;
+    width: 20em;
+    color: black;
+  }
+  .medio-card-text p,.medio-card-text h3{
+    background-color: transparent;
+  }
+}
 /* .medio-card{
   margin: 5px;
 }

@@ -4,10 +4,12 @@
   flex-direction: row;
   margin: 10px;
   align-items: center;
+  width: 100%;
+  height: 30em;
 }
 .caixa-photo img{
-  width: 400px;
-  height: 400px;
+  width: 25em;
+  height: 30em;
 }
 .caixa a{
   text-decoration: none;
@@ -18,9 +20,7 @@
   background-color: white;
   text-align: start;
 }
-.caixa-text p{
-  margin: 0;
-}
+
 .caixa-text a{
   text-decoration: none;
 }
